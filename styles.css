@@ -18,6 +18,7 @@ html {
   background-color: #4aaaa5;
   padding: 10px;
   color: #fff !important;
+  border-radius: 20px;
 }
 
 main {
@@ -25,7 +26,17 @@ main {
 }
 
 /* ------------------------- */
-/* other styles will be here */
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 20px; 
+}
+
+.links {
+  font-size: 3em; 
+  color: black; 
+  padding: 20px;
+}
 /* ------------------------- */
 
 
