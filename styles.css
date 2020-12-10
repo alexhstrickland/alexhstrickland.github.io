@@ -1,3 +1,4 @@
+/* applies to all */
 * {
   font-family: 'Raleway', sans-serif;
 }
@@ -11,10 +12,12 @@ html {
   min-height: 100%
 }
 
+/* color of navigation bar */
 .navbar {
   border-bottom: 1px solid #efefef;
 }
 
+/* logo (full name) properties in nav bar */
 .logo {
   font-family:'Raleway', sans-serif;
   font-size: 24px;
@@ -29,29 +32,38 @@ main {
   margin: 80px 0;
 }
 
-/* ------------------------- */
+/* headshot on main page */
 img{
-  width: 100%;
-  height: auto;
+
+  width: 85%;
+  height: 85%;
   border-radius: 20px; 
 }
 
+/* sizing and formatting of social media links */
 .links {
   font-size: 3em; 
   padding: 20px;
 }
 
+/* color change of link icons */
 .fa-envelope, .fa-linkedin-in, .fa-github {
   color: black !important;
 }
 
 
+/* Card properties in portfolio */
+.card {
+  width:100%;
+  margin-top: 5px;
+}
+
+/* color, border, and font properties of buttons */
 .btn-primary {
   font-family: 'Raleway', sans-serif;
   background-color: #4aaaa5 !important;
   border: #4aaaa5;
 }
-/* ------------------------- */
 
 
 .footer {
@@ -64,13 +76,19 @@ img{
 }
 
 /* Media Queries */
-
 @media (max-width: 992px) {
+ 
 
 }
 @media (max-width: 768px) {
+ 
+  .card {
+    width:100%;
+    margin-top: 5px;
+  }
 
 }
 @media (max-width: 400px) {
-  
+
+
 }
