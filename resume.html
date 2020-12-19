@@ -19,7 +19,7 @@
 
       <section class="container">
         <!--Nav bar logo at the top left of page-->
-        <a class="navbar-brand logo" href="index.html">Alex Strickland</a>
+        <a class="navbar-brand logo" href="resume.html">Alex Strickland</a>
         <!--Nav bar button-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -30,11 +30,11 @@
             <!--Nav link to home page-->
             <a class="nav-link" href="index.html">Home</a>
             <!--Nav link to resume page-->
-            <a class="nav-link" href="resume.html">Resume</a>
+            <a class="nav-link active" href="resume.html">Resume  <span class="sr-only">(current)</span></a>
             <!--Nav link to portfolio page-->
             <a class="nav-link" href="portfolio.html">Portfolio</a>
             <!--Nav link to contact page-->
-            <a class="nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </section>
         </section>
 
@@ -44,41 +44,11 @@
     <!--Main content of the page-->
     <main class="container">
       <!--header tag-->
-      <h1>Contact</h1>
+      <h1>Resume</h1>
       <!--Bootstrap contact form-->
       <section>
-        <form>
-          <!--Inout box for name-->
-          <section class="row">
-            <section class="col-md-6">
-              <section class="form-group">
-                <label for="exampleFormControlInput1">Full Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Full Name">
-              </section>
-            </section>
-          </section>
-          <!--Inout box for email address-->
-          <section class="row">
-            <section class="col-md-6">
-              <section class="form-group">
-                <label for="exampleFormControlInput2">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Email Address">
-              </section>
-            </section>
-          </section>
-          <!--Inout box for message-->
-          <section class="row">
-            <section class="col-md-6">
-              <section class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter Message" rows="3"></textarea>
-              </section>
-            </section>
-          </section>
-          <!--Submit button for name, email, and message-->
-          <button type="submit" class="btn btn-primary">Submit</button>
-        
-        </form>
+        <!-- Embed resume pdf-->  
+        <embed src="assets/pdf/RESUME_2021.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
       </section>
 
     </main>

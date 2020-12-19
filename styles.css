@@ -55,7 +55,7 @@ img{
 /* Card properties in portfolio */
 .card {
   width:100%;
-  margin-top: 5px;
+  margin: 10px;
 }
 
 /* color, border, and font properties of buttons */
@@ -63,6 +63,7 @@ img{
   font-family: 'Raleway', sans-serif;
   background-color: #4aaaa5 !important;
   border: #4aaaa5;
+  margin: 5px;
 }
 
 
